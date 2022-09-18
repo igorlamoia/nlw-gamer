@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='time'] {
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type='time']::-webkit-calendar-picker-indicator {
+	margin: 0 auto;
+	background: url(/time.svg);
+}
